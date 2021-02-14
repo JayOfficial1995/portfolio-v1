@@ -1,11 +1,12 @@
 export default {
   color: {
-    purpleColor: "#6328e4",
+    purpleColor: "#af94eb",
     darkGrayColor: "#737374",
+    darkestGrayColor: "#333333",
     grayColor: "#7c7c7c",
     whiteColor: "#fff",
     blackColor: "#000",
-    background: "#edebff",
+    background: "#ecf0f3",
     gradientPurpleColor: "linear-gradient(135deg,  #b094eb 0%,#986ff1 100%);",
   },
 
@@ -31,9 +32,12 @@ export default {
   },
 
   boxShadow: {
-    primaryShadow: "3px 4px 5px 0px #E5E5E5,-3px -2px 5px 0px #fff",
+    primaryShadow: "4px 4px 3px 0px #cbced1,-4px -4px 3px 0px #fff",
     secondaryShadow:
-      "-3px -2px 5px 0px #fff inset, 3px 4px 5px 0px #E5E5E5 inset",
+      "-3px -2px 5px 0px #fff inset, 3px 4px 5px 0px #cbced1 inset",
+    textShadow: "0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7)",
+    innerItems: "2px 2px 2px 0px #d6d5d5, -1px -1px 2px 1px #fff",
+    buttonShadow: "3px 3px 2px 0px #d6d5d5, -2px -2px 2px 1px #fff",
   },
 
   breakPoints: {
