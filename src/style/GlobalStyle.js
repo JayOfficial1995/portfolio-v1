@@ -5,6 +5,8 @@ export const GlobalStyle = createGlobalStyle`
     html {
         font-size: 62.5%;
 
+        
+
         body {
 
             font-family: 'Poppins', sans-serif;

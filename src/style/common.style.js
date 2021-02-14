@@ -1,8 +1,8 @@
-import { css } from "styled-components";
+import styled, { css } from "styled-components";
 
 export const FlexBoxStyle = css`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 `;
 
@@ -29,4 +29,17 @@ export const BoxShadowStyle = css`
 
 export const InnerShadowStyle = css`
   box-shadow: ${(props) => props.theme.boxShadow.secondaryShadow};
+`;
+
+export const TextShadowStyle = css`
+  text-shadow: ${(props) => props.theme.boxShadow.textShadow};
+`;
+
+export const AppStyle = styled.section`
+  ${CustomContainerStyle};
+  ${CenterdLayoutStyle};
+  ${CommonGridStyle};
+
+  grid-template-columns: 24.8rem 1fr;
+  height: 100vh;
 `;
