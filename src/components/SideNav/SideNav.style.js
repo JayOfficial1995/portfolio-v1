@@ -75,6 +75,7 @@ export const MenuBarStyle = styled.section`
       border: 0.5rem solid ${(props) => props.theme.color.purpleColor};
       margin-top: -5rem;
       position: relative;
+      transition: 0.3s all linear;
     }
   }
 

@@ -1,6 +1,7 @@
 export default {
   color: {
     purpleColor: "#af94eb",
+    dimGrayColor: "#dfe2e4",
     darkGrayColor: "#737374",
     darkestGrayColor: "#333333",
     grayColor: "#7c7c7c",
