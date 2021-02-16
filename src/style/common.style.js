@@ -40,6 +40,6 @@ export const AppStyle = styled.section`
   ${CenterdLayoutStyle};
   ${CommonGridStyle};
 
-  grid-template-columns: 24.8rem 1fr;
+  grid-template-columns: auto 1fr;
   height: 100vh;
 `;
